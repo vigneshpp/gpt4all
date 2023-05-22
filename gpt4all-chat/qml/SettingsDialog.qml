@@ -935,11 +935,8 @@ Dialog {
                 contentWidth: availableWidth - 20
                 ScrollBar.vertical.policy: ScrollBar.AlwaysOn
 
-                GridLayout {
+                LocalDocs {
                     anchors.margins: 10
-                    columns: 3
-                    rowSpacing: 10
-                    columnSpacing: 10
                     anchors.fill: parent
                 }
             }
